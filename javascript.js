@@ -11,3 +11,18 @@ function getComputerChoice() {
 }
 getComputerChoice()
 
+//user gets prompt 
+//user inputs 1 of 3 choices (rock, paper, or scissors)
+
+function getHumanChoice() {
+    let choice = prompt("Enter your choice quickly please!") 
+    if (prompt = 'Rock') {
+        console.log(choice)
+    } else if (prompt = 'Paper') {
+        console.log(choice)
+    } else if (prompt = 'Scissors') {
+        console.log(choice)
+    }
+    
+}
+getHumanChoice()
