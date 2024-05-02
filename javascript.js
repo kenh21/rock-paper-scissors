@@ -26,3 +26,6 @@ function getHumanChoice() {
     
 }
 getHumanChoice()
+
+const humanScore = 0
+const computerScore = 0
