@@ -23,7 +23,7 @@ function getHumanChoice() {
     } else if (prompt == 'Scissors') {
         console.log(choice)
     }
-    return choice.toLowerCase()
+    return choice.toLowerCase(0)
 }
 
 
