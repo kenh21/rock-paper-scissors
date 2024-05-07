@@ -23,12 +23,12 @@ function getHumanChoice() {
     } else if (prompt == 'Scissors') {
         console.log(choice)
     }
-    return choice
+    return choice.toLowerCase()
 }
 
 
 function playRound(humanChoice, computerChoice) {
-     if (humanChoice == 'Rock' && computerChoice == 'Scissors') {
+     if (humanChoice == 'rock' && computerChoice == 'Scissors') {
         return console.log('You win! Rock beats Scissors')
     } else if (humanChoice == 'Paper' && computerChoice == 'Rock') {
         return console.log('You win! Paper beats Rock')
