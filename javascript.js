@@ -38,10 +38,10 @@ function playRound(humanChoice, computerChoice) {
     } else { console.log(`You lose!${computerChoice} beats ${humanChoice}`)
     }  
     if  (humanChoice == 'rock' && computerChoice == 'Scissors') {
-        ++humanScore;
+         ++humanScore;
    } else if (humanChoice == 'Paper' && computerChoice == 'Rock') {
         ++humanScore;
-   } else if (humanChoice == 'Scissors' && computerChoice == 'Paper'){ 
+   } else if (humanChoice == 'Scissors' && computerChoice == 'Paper') { 
         ++humanScore;
    } else { ++computerScore;
    }   
@@ -50,6 +50,31 @@ function playRound(humanChoice, computerChoice) {
 }
 const humanChoice = getHumanChoice();
 const computerChoice = getComputerChoice();
-playRound(humanChoice, computerChoice);
+const humanChoice2 = getHumanChoice();
+const computerChoice2 = getComputerChoice();
+const humanChoice3 = getHumanChoice();
+const computerChoice3 = getComputerChoice();
+const humanChoice4 = getHumanChoice();
+const computerChoice4 = getComputerChoice();
+const humanChoice5 = getHumanChoice();
+const computerChoice5 = getComputerChoice();
 
+function playGame() {
+    playRound(humanChoice, computerChoice)
+    playRound(humanChoice2, computerChoice2)
+    playRound(humanChoice3, computerChoice3)
+    playRound(humanChoice4, computerChoice4)
+    playRound(humanChoice5, computerChoice5)
+    if (humanScore > computerScore) {
+        console.log('You win!')
+    } else console.log('You lose!')
+}
+playGame();
+
+
+
+
+
+    
+   
 
