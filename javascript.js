@@ -59,7 +59,7 @@ const computerChoice4 = getComputerChoice();
 const humanChoice5 = getHumanChoice();
 const computerChoice5 = getComputerChoice();
 
-function playGame() {
+/* function playGame() {
     playRound(humanChoice, computerChoice)
     playRound(humanChoice2, computerChoice2)
     playRound(humanChoice3, computerChoice3)
@@ -70,7 +70,7 @@ function playGame() {
     } else console.log('You lose!')
 }
 playGame();
-
+ */
 
 
 
