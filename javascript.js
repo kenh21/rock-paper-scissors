@@ -1,3 +1,8 @@
+const choices = ['rock', 'scissors', 'paper'];
+const humanScoreDisplay = document.querySelector('#humanScoreDisplay');
+const computerScoreDisplay = document.querySelector('#computerScoreDisplay');
+let humanScore = 0
+let computerScore = 0
 
 function getComputerChoice() {
     let choice = Math.floor(Math.random()*3)+1;
@@ -11,9 +16,7 @@ function getComputerChoice() {
         console.log(choice)
         return choice
 }
-const rockbutton = document.querySelector('#rock');
-const paperbutton = document.querySelector('#paper');
-const scissorbutton = document.querySelector('#scissors');
+
 
 
 function getHumanChoice() {
@@ -27,8 +30,7 @@ function getHumanChoice() {
     }
     return choice.toLowerCase(0)
 }
-let humanScore = 0
-let computerScore = 0
+
 
 function playRound(humanChoice, computerChoice) {
     if (humanChoice == 'rock' && computerChoice == 'Scissors') {
