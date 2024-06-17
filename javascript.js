@@ -11,7 +11,9 @@ function getComputerChoice() {
         console.log(choice)
         return choice
 }
-
+const rockbutton = document.querySelector('#rock');
+const paperbutton = document.querySelector('#paper');
+const scissorbutton = document.querySelector('#scissors');
 
 
 function getHumanChoice() {
@@ -49,7 +51,7 @@ function playRound(humanChoice, computerChoice) {
    console.log(computerScore)
 }
 const humanChoice = getHumanChoice();
-const computerChoice = getComputerChoice();
+/*const computerChoice = getComputerChoice();
 const humanChoice2 = getHumanChoice();
 const computerChoice2 = getComputerChoice();
 const humanChoice3 = getHumanChoice();
@@ -57,7 +59,7 @@ const computerChoice3 = getComputerChoice();
 const humanChoice4 = getHumanChoice();
 const computerChoice4 = getComputerChoice();
 const humanChoice5 = getHumanChoice();
-const computerChoice5 = getComputerChoice();
+const computerChoice5 = getComputerChoice();*/
 
 /* function playGame() {
     playRound(humanChoice, computerChoice)
